@@ -57,7 +57,7 @@ void tortoisePosition(int *tPos){
     int posMoved = 3; // automatically set for 3 squares to the right due to it being less checks
 
     if (rng == 6 || rng == 7){
-        posMoved = 6;
+        posMoved = -6;
     }
     if (rng == 8 || rng == 9 || rng == 10){
         posMoved = 1;
